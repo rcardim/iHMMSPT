@@ -19,7 +19,7 @@ error=0;%experimental error
 opts.K_init = 10; %initial number of states
 opts.a = 1; %hyperparameter alpha of the Dirichlet Process (transition probabilities concentration)
 opts.g = 0.05; %hyperparameter gamma of the stick breaking process (base concentration)
-opts.Q = [0,0,1,0.1]; %hyperparameter of emission distribution (conjugacy model: the first two is for mean, where we set to 0 for SPT.)-->[0,0,2*a,1/(a*b)](a and b from eq.2)
+opts.Q = [0,0,1,0.1]; %hyperparameter of emission distribution (conjugacy model: the first two is for mean, where we set to 0 for SPT.)-->[0,0,2*a,b/a)](a and b from eq.2)
 opts.dr_sk = 1;
 number_of_burnins=5; %implementation parameters
 %burn-in
