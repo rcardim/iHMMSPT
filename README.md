@@ -4,3 +4,7 @@ Falcao, Rebeca Cardim, and Daniel Coombs. "Diffusion analysis of single particle
 Code to run: main.m
 
 Code to create plots: somePlots.m
+
+References:
+----------------------------------
+Sgouralis, Ioannis, and Steve Pressé. "An introduction to infinite HMMS for single-molecule data analysis." Biophysical journal 112.10 (2017): 2021-2029.
