@@ -3,8 +3,8 @@ dirIN=pwd;
 addpath( [dirIN '\sampler_SRC'])
 %% Iteration steps
 % Number of iterations and percentage of burn-in steps.
-r_total=5000;
-per=0.15;
+r_total=5000; % total number of steps 
+per=0.15; % percentage of steps on burn-in phase
 r_burnin=per*r_total;
 r_max=(1-per)*r_total;
 %% Data Load
