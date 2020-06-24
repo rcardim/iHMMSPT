@@ -18,6 +18,7 @@ saveas(fig1,'statesGraph.png')
 %% Boxplot graph of diffusions
 variance=[];
 prob=[];
+count=0;
 statesEstimated=mode(chain_final.K(burn_in:end));
 Transitions=zeros(statesEstimated,statesEstimated);
 for i=burn_in:length(chain_final.F)
