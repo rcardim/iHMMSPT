@@ -8,8 +8,8 @@ per=0.15; % percentage of steps on burn-in phase
 r_burnin=per*r_total;
 r_max=(1-per)*r_total;
 %% Data Load
-%data has to be displacements (1-D); if 2-D or 3-D: use new dimensions as
-%multiple chains or use the radial displacement:
+%data has to be displacements (1-D); if 2-D or 3-D: use new dimensions as chains
+%multiple chains for >1 dimension
 %displacement=sqrt(x^2+y^2+z^2). 
 fname='Displacements-4.mat';
 load(fullfile(dirIN,fname));
