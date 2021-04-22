@@ -4,7 +4,7 @@ load('results-3.mat')
 %% setting parameters of experimental data
 tau=0.001; %tau = sampling time = 1/frame_rate (1/s)
 pixel_size=1; % size of 1 pixel in microns (for simulated data is 1)
-%% the number of burn-ins
+%% the number of burn-in steps
 burn_in=750;% burn-in steps
 
 %% Plot states chain
