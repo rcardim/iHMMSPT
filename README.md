@@ -1,5 +1,6 @@
 # iHMMSPT
-Falcao, Rebeca Cardim, and Daniel Coombs. "Diffusion analysis of single particle trajectories in a Bayesian nonparametrics framework." Physical biology 17.2 (2020): 025001.
+
+infinite hidden Markov model for Single-Particle trajectories: a nonparametrics Bayesian framework to estimate the number of states, the diffusivities and transition probabilities.
 
 Code to run: main.m
 
@@ -140,4 +141,5 @@ saveas(fig2,'BoxplotDiffusionState.png')
 
 References:
 ----------------------------------
+Falcao, Rebeca Cardim, and Daniel Coombs. "Diffusion analysis of single particle trajectories in a Bayesian nonparametrics framework." Physical biology 17.2 (2020): 025001.
 Sgouralis, Ioannis, and Steve Pressé. "An introduction to infinite HMMS for single-molecule data analysis." Biophysical journal 112.10 (2017): 2021-2029.
