@@ -23,7 +23,7 @@ load(fullfile(dirIN,fname));
 
 The data should be a vector where each value is the displacement for that time frame. 
 If we have a 2-D or 3-D displacements, we treat each dimension as a new chain, and concatanate all data in one vector.
-For example, let x=[...], y=[...], and z=[...] be column vectors, then the final data should be a column vector a swell. In MATLAB code: xyz=[x; y; z]
+For example, let x=[...], y=[...], and z=[...] be column vectors, then the final data should be a column vector aswell. In MATLAB code: xyz=[x; y; z]
 Once the data is loaded, and processed, we need to add it to the sampler input (handles):
 
 ```
@@ -36,7 +36,7 @@ After, we set the experimental errors. If no experimental error (simulated data)
 error=0;  %experimental error
 ```
 
-Next, we need to specify the number of iterations and the percentage of steps that is from the burn-in phase. This percentage of steps we do not use on the estimation of parameters. Here, we define 5000 steps, where 15% is burn-in.
+Next, we need to specify the number of iterations and the percentage of steps that is from the burn-in phase. We do not use the percentage of steps on the estimation of parameters. Here, we define 5000 steps, where 15% is burn-in.
 
 ```
 %% Iteration steps % Number of iterations and percentage of burn-in steps
